@@ -5,7 +5,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      fredoka: ["Fredoka", "sans-serif"],
+      noto: ["Noto Sans", "sans-serif"],
+    },
   },
   plugins: [],
 };

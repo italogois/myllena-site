@@ -1,3 +1,15 @@
+import Contact from "../components/Contact";
+import Header from "../components/header";
+import Services from "../components/Services";
+import Testimonials from "../components/Testimonials";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+      <Services />
+      <Testimonials />
+      <Contact />
+    </>
+  );
 }

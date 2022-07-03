@@ -1,0 +1,6 @@
+@tailwind utilities;
+
+.header {
+  @apply bg-no-repeat bg-bottom bg-contain pb-36 pt-12;
+  background-image: url("../../public/bgheader.png");
+}

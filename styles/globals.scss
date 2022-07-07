@@ -8,6 +8,10 @@
     @apply p-0 m-0;
     font-family: "Noto Sans", sans-serif;
     color: #3a3a3a;
+    background-color: #fff;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
   }
 
   h1,
@@ -16,7 +20,7 @@
   h4,
   h5,
   h6 {
-    @apply font-semibold;
+    @apply font-medium;
     font-family: "Fredoka", sans-serif;
   }
 
@@ -26,6 +30,10 @@
 
   h2 {
     @apply text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl;
   }
 
   a {

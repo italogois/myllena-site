@@ -7,9 +7,9 @@ function Header() {
   return (
     <>
       <header className={s.header}>
-        <div className="container mx-auto">
+        <div className="container px-8 mx-auto">
           <div className="flex flex-col gap-8 md:flex-row">
-            <div>
+            <div className="md:w-1/2">
               <Image src={logo} alt="logomarca Myllena" />
 
               <div className="mt-16">
@@ -21,7 +21,7 @@ function Header() {
               </div>
             </div>
 
-            <div>
+            <div className="flex-grow">
               <Image src={photomyllena} alt="logomarca Myllena" />
             </div>
           </div>

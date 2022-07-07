@@ -11,6 +11,7 @@ module.exports = {
     },
     colors: {
       graffiti: "#3A3A3A",
+      grey: "#FAFAFA",
     },
     extend: {
       backgroundImage: {

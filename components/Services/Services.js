@@ -3,9 +3,9 @@ import serviceData from "../../data/services";
 
 function Services() {
   return (
-    <section className="services pt-8 bg-grey">
+    <section className="services pt-8 pb-20 bg-grey">
       <div className="container mx-auto px-8 xl:max-w-7xl">
-        <h2 className="text-center">Serviços</h2>
+        <h2 className="text-center text-3xl xl:text-4xl">Serviços</h2>
         <div className="text-center my-12">
           Sed imperdiet lorem nec lectus cursus, ut lacinia enim malesuada.
           Vestibulum a ipsum ac dolor consequat dapibus ac nec ligula. Aenean

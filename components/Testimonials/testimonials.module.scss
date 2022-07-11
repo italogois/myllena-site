@@ -1,0 +1,15 @@
+.blockquote {
+  @apply relative italic text-lg mb-10 md:mb-0 lg:mb-0 md:text-xl md:pl-20 md:col-span-2;
+
+  &:before {
+    content: "";
+    background-image: url("../../public/quote.svg");
+    width: 155px;
+    height: 155px;
+    top: -91px;
+    left: -10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+}

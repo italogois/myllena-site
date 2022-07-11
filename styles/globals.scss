@@ -20,16 +20,8 @@
   h4,
   h5,
   h6 {
-    @apply font-medium;
-    font-family: "Fredoka", sans-serif;
-  }
-
-  h1 {
-    @apply text-5xl;
-  }
-
-  h2 {
-    @apply text-4xl;
+    @apply font-bold;
+    font-family: "Asap Condensed", sans-serif;
   }
 
   h4 {
@@ -53,4 +45,13 @@
   .filter-grayscale {
     filter: grayscale(100%);
   }
+}
+
+.swiper-custom-bullet,
+.swiper-custom-bullet-active {
+  @apply mr-2 rounded-full inline-block w-4 h-4 bg-green;
+}
+
+.swiper-custom-bullet-active {
+  @apply opacity-50;
 }

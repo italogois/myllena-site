@@ -5,7 +5,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Myllena Atanazio - Fisioterapeuta</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
           <link
             href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap"
             rel="stylesheet"
